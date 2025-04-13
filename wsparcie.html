@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wsparcie dla Opiekunów</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div style="text-align:right; margin: 10px;">
+  <button onclick="changeFontSize(1)" class="btn">A+</button>
+  <button onclick="changeFontSize(-1)" class="btn">A-</button>
+</div>
+<header>
+  <h1>Wsparcie dla Opiekunów</h1>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="index.html">Strona Główna</a></li>
+    <li><a href="o-opiece.html">O Opiece</a></li>
+    <li><a href="blog.html">Blog</a></li>
+    <li><a href="wsparcie.html">Wsparcie</a></li>
+    <li><a href="kontakt.html">Kontakt</a></li>
+  </ul>
+</nav>
+
+<div class="container">
+  <section class="section">
+    <h2>Dostępne formy pomocy</h2>
+    <ul>
+      <li>Programy opieki wytchnieniowej oferowane przez gminy</li>
+      <li>Wsparcie psychologiczne i grupy wsparcia</li>
+      <li>Pomoc finansowa (świadczenia, ulgi, fundacje)</li>
+      <li>Bezpłatne porady prawne dla opiekunów</li>
+      <li>Szkolenia i kursy z zakresu opieki</li>
+    </ul>
+  </section>
+</div>
+
+<footer>
+  <p>&copy; 2025 Blog Opieka Wytchnieniowa – wwwluki</p>
+</footer>
+<script>
+  let fontSize = 16;
+  function changeFontSize(change) {
+    fontSize += change;
+    document.body.style.fontSize = fontSize + "px";
+  }
+</script>
+</body>
+</html>
+```
+
